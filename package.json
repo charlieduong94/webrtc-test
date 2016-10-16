@@ -1,0 +1,35 @@
+{
+  "name": "webrtc-app",
+  "version": "1.0.0",
+  "description": "Simple webrtc app",
+  "main": "server.js",
+  "repository": {
+    "url": "https://github.com/charlieduong94/webrtc-app",
+    "type": "git"
+  },
+  "author": "Charlie Duong",
+  "license": "MIT",
+  "dependencies": {
+    "app-module-path": "^2.1.0",
+    "bluebird": "^3.4.6",
+    "browser-refresh": "^1.6.0",
+    "compression": "^1.6.2",
+    "custom-logger": "^0.3.1",
+    "express": "^4.14.0",
+    "graceful-fs": "^4.1.9",
+    "lasso": "^2.6.0",
+    "lasso-autoprefixer": "^2.0.0",
+    "lasso-babel-transform": "^0.4.0",
+    "lasso-less": "^2.3.1",
+    "lasso-marko": "^2.0.7",
+    "marko": "^3.11.4",
+    "marko-widgets": "^6.3.6",
+    "serve-static": "^1.11.1",
+    "socket.io-client": "^1.5.0",
+    "webrtc-adapter": "^2.0.4"
+  },
+  "devDependencies": {
+    "jscs": "^3.0.7",
+    "jshint": "^2.9.3"
+  }
+}

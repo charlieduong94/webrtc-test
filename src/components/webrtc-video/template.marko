@@ -1,0 +1,8 @@
+div class='webrtc' w-bind
+    label - Webrtc is fun
+    div class='webrtc-video-container'
+        div class='local-video-container'
+            video w-id='video-local' w-preserve muted='true' width='500' height='500'
+        div class='remote-video-container'
+            video width='500' height='500' src=video.src for(video in data.videos) w-preserve
+    button w-onClick='handleJoinClick' - Join

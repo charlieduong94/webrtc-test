@@ -1,0 +1,7 @@
+{
+    "dependencies": [
+        "node_modules/webrtc-adapter/out/adapter.js",
+        "require: ./widget",
+        "require: src/components/webrtc-video"
+    ]
+}
